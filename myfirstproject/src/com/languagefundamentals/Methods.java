@@ -2,15 +2,19 @@ package com.languagefundamentals;
 
 public class Methods {
 	static void method1() {
- 	}
+		System.out.println("static method 1 called !");
+	}
+
 	static void method2() {
 		method1();
 		System.out.println("static method 2 called !");
 	}
+
 	void method3() {
 		method2();
 		System.out.println("instance method 1 called !");
 	}
+
 	void method4() {
 		method3();
 		System.out.println("instance method 2 called !");

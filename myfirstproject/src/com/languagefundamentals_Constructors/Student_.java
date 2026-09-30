@@ -12,9 +12,7 @@ public class Student_ {
 	}
 
 	public Student_(Student_ s) {
-		this.id = s.id;
-		this.name = s.name;
-		this.branch = s.branch;
+		this(s.id,s.name,s.branch);
 
 	}
 
